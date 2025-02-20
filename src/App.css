@@ -1,0 +1,20 @@
+.container-app{
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background: hsla(175, 79%, 63%, 1);
+
+background: radial-gradient(circle, hsla(175, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(175, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(175, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#57EBDE", endColorstr="#AEFB2A", GradientType=1 );
+}
+
+.emoji{
+  font-size: 190px;
+}
